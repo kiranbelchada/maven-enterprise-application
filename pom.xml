@@ -19,6 +19,21 @@
 	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 	<project.reporting.outputEncoding>UTF-8</project.reporting.outputEncoding>
 </properties>	
+<distributionManagement>
+	
+	    <repository>
+	      <id>nexus</id>
+	      <name>kiranbelchada Releases Nexus Repository</name>
+	      <url>http://13.232.223.10:8081/repository/walmart-release/</url>
+	    </repository>
+	    
+	    <snapshotRepository>
+	      <id>nexus</id>
+	      <name>kiranbelchada Snapshot Nexus Repository </name>
+	      <url>http://13.232.223.10:8081/repository/walmart-snapshot/</url>
+	    </snapshotRepository>
+	    
+	</distributionManagement>
 	
   
 </project>
